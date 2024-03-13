@@ -132,7 +132,7 @@ BEGIN
 		
 
 	romR: rom_256_1280
-		generic map(init_rom_name => "C:\Users\Avi\Desktop\pro\r.mif")
+		generic map(init_rom_name => "r.mif")
 		port map(
 			clock	=>	clk,
 			aclr 	=>	rst,
@@ -155,7 +155,7 @@ BEGIN
 				
 				
 	romG: rom_256_1280
-		generic map(init_rom_name => "C:\Users\Avi\Desktop\pro\g.mif")
+		generic map(init_rom_name => "g.mif")
 		port map(
 			clock	=>	clk,
 			aclr 	=>	rst,
@@ -177,7 +177,7 @@ BEGIN
 
 				
 	romB: rom_256_1280
-		generic map(init_rom_name => "C:\Users\Avi\Desktop\pro\b.mif")
+		generic map(init_rom_name => "b.mif")
 		port map(
 			clock	=>	clk,
 			aclr 	=>	rst,
